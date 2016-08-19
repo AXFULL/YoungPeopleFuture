@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE162991D66A8840074075E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE162981D66A8840074075E /* main.m */; };
+		FCE1629C1D66A8840074075E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1629B1D66A8840074075E /* AppDelegate.m */; };
+		FCE1629F1D66A8840074075E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1629E1D66A8840074075E /* ViewController.m */; };
+		FCE162A21D66A8840074075E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE162A01D66A8840074075E /* Main.storyboard */; };
+		FCE162A41D66A8840074075E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE162A31D66A8840074075E /* Assets.xcassets */; };
+		FCE162A71D66A8840074075E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE162A51D66A8840074075E /* LaunchScreen.storyboard */; };
+		FCE162B21D66A8840074075E /* YoungPeopleFutureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE162B11D66A8840074075E /* YoungPeopleFutureTests.m */; };
+		FCE162BD1D66A8840074075E /* YoungPeopleFutureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE162BC1D66A8840074075E /* YoungPeopleFutureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE162AE1D66A8840074075E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1628C1D66A8840074075E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE162931D66A8840074075E;
+			remoteInfo = YoungPeopleFuture;
+		};
+		FCE162B91D66A8840074075E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1628C1D66A8840074075E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE162931D66A8840074075E;
+			remoteInfo = YoungPeopleFuture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE162941D66A8840074075E /* YoungPeopleFuture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungPeopleFuture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE162981D66A8840074075E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCE1629A1D66A8840074075E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCE1629B1D66A8840074075E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCE1629D1D66A8840074075E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCE1629E1D66A8840074075E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCE162A11D66A8840074075E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE162A31D66A8840074075E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE162A61D66A8840074075E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE162A81D66A8840074075E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE162AD1D66A8840074075E /* YoungPeopleFutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoungPeopleFutureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE162B11D66A8840074075E /* YoungPeopleFutureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungPeopleFutureTests.m; sourceTree = "<group>"; };
+		FCE162B31D66A8840074075E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE162B81D66A8840074075E /* YoungPeopleFutureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoungPeopleFutureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE162BC1D66A8840074075E /* YoungPeopleFutureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungPeopleFutureUITests.m; sourceTree = "<group>"; };
+		FCE162BE1D66A8840074075E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE162911D66A8840074075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162AA1D66A8840074075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162B51D66A8840074075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE1628B1D66A8840074075E = {
+			isa = PBXGroup;
+			children = (
+				FCE162961D66A8840074075E /* YoungPeopleFuture */,
+				FCE162B01D66A8840074075E /* YoungPeopleFutureTests */,
+				FCE162BB1D66A8840074075E /* YoungPeopleFutureUITests */,
+				FCE162951D66A8840074075E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE162951D66A8840074075E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE162941D66A8840074075E /* YoungPeopleFuture.app */,
+				FCE162AD1D66A8840074075E /* YoungPeopleFutureTests.xctest */,
+				FCE162B81D66A8840074075E /* YoungPeopleFutureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE162961D66A8840074075E /* YoungPeopleFuture */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1629A1D66A8840074075E /* AppDelegate.h */,
+				FCE1629B1D66A8840074075E /* AppDelegate.m */,
+				FCE1629D1D66A8840074075E /* ViewController.h */,
+				FCE1629E1D66A8840074075E /* ViewController.m */,
+				FCE162A01D66A8840074075E /* Main.storyboard */,
+				FCE162A31D66A8840074075E /* Assets.xcassets */,
+				FCE162A51D66A8840074075E /* LaunchScreen.storyboard */,
+				FCE162A81D66A8840074075E /* Info.plist */,
+				FCE162971D66A8840074075E /* Supporting Files */,
+			);
+			path = YoungPeopleFuture;
+			sourceTree = "<group>";
+		};
+		FCE162971D66A8840074075E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE162981D66A8840074075E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCE162B01D66A8840074075E /* YoungPeopleFutureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE162B11D66A8840074075E /* YoungPeopleFutureTests.m */,
+				FCE162B31D66A8840074075E /* Info.plist */,
+			);
+			path = YoungPeopleFutureTests;
+			sourceTree = "<group>";
+		};
+		FCE162BB1D66A8840074075E /* YoungPeopleFutureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE162BC1D66A8840074075E /* YoungPeopleFutureUITests.m */,
+				FCE162BE1D66A8840074075E /* Info.plist */,
+			);
+			path = YoungPeopleFutureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE162931D66A8840074075E /* YoungPeopleFuture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE162C11D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFuture" */;
+			buildPhases = (
+				FCE162901D66A8840074075E /* Sources */,
+				FCE162911D66A8840074075E /* Frameworks */,
+				FCE162921D66A8840074075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoungPeopleFuture;
+			productName = YoungPeopleFuture;
+			productReference = FCE162941D66A8840074075E /* YoungPeopleFuture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE162AC1D66A8840074075E /* YoungPeopleFutureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE162C41D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFutureTests" */;
+			buildPhases = (
+				FCE162A91D66A8840074075E /* Sources */,
+				FCE162AA1D66A8840074075E /* Frameworks */,
+				FCE162AB1D66A8840074075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE162AF1D66A8840074075E /* PBXTargetDependency */,
+			);
+			name = YoungPeopleFutureTests;
+			productName = YoungPeopleFutureTests;
+			productReference = FCE162AD1D66A8840074075E /* YoungPeopleFutureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE162B71D66A8840074075E /* YoungPeopleFutureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE162C71D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFutureUITests" */;
+			buildPhases = (
+				FCE162B41D66A8840074075E /* Sources */,
+				FCE162B51D66A8840074075E /* Frameworks */,
+				FCE162B61D66A8840074075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE162BA1D66A8840074075E /* PBXTargetDependency */,
+			);
+			name = YoungPeopleFutureUITests;
+			productName = YoungPeopleFutureUITests;
+			productReference = FCE162B81D66A8840074075E /* YoungPeopleFutureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE1628C1D66A8840074075E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AX;
+				TargetAttributes = {
+					FCE162931D66A8840074075E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FCE162AC1D66A8840074075E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FCE162931D66A8840074075E;
+					};
+					FCE162B71D66A8840074075E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FCE162931D66A8840074075E;
+					};
+				};
+			};
+			buildConfigurationList = FCE1628F1D66A8840074075E /* Build configuration list for PBXProject "YoungPeopleFuture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE1628B1D66A8840074075E;
+			productRefGroup = FCE162951D66A8840074075E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE162931D66A8840074075E /* YoungPeopleFuture */,
+				FCE162AC1D66A8840074075E /* YoungPeopleFutureTests */,
+				FCE162B71D66A8840074075E /* YoungPeopleFutureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE162921D66A8840074075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE162A71D66A8840074075E /* LaunchScreen.storyboard in Resources */,
+				FCE162A41D66A8840074075E /* Assets.xcassets in Resources */,
+				FCE162A21D66A8840074075E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162AB1D66A8840074075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162B61D66A8840074075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE162901D66A8840074075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1629F1D66A8840074075E /* ViewController.m in Sources */,
+				FCE1629C1D66A8840074075E /* AppDelegate.m in Sources */,
+				FCE162991D66A8840074075E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162A91D66A8840074075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE162B21D66A8840074075E /* YoungPeopleFutureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE162B41D66A8840074075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE162BD1D66A8840074075E /* YoungPeopleFutureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE162AF1D66A8840074075E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE162931D66A8840074075E /* YoungPeopleFuture */;
+			targetProxy = FCE162AE1D66A8840074075E /* PBXContainerItemProxy */;
+		};
+		FCE162BA1D66A8840074075E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE162931D66A8840074075E /* YoungPeopleFuture */;
+			targetProxy = FCE162B91D66A8840074075E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCE162A01D66A8840074075E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE162A11D66A8840074075E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE162A51D66A8840074075E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE162A61D66A8840074075E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE162BF1D66A8840074075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCE162C01D66A8840074075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE162C21D66A8840074075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoungPeopleFuture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFuture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCE162C31D66A8840074075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoungPeopleFuture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFuture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCE162C51D66A8840074075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoungPeopleFutureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFutureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoungPeopleFuture.app/YoungPeopleFuture";
+			};
+			name = Debug;
+		};
+		FCE162C61D66A8840074075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoungPeopleFutureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFutureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoungPeopleFuture.app/YoungPeopleFuture";
+			};
+			name = Release;
+		};
+		FCE162C81D66A8840074075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoungPeopleFutureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFutureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoungPeopleFuture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCE162C91D66A8840074075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoungPeopleFutureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ax.YoungPeopleFutureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoungPeopleFuture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE1628F1D66A8840074075E /* Build configuration list for PBXProject "YoungPeopleFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE162BF1D66A8840074075E /* Debug */,
+				FCE162C01D66A8840074075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE162C11D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE162C21D66A8840074075E /* Debug */,
+				FCE162C31D66A8840074075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCE162C41D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFutureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE162C51D66A8840074075E /* Debug */,
+				FCE162C61D66A8840074075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCE162C71D66A8840074075E /* Build configuration list for PBXNativeTarget "YoungPeopleFutureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE162C81D66A8840074075E /* Debug */,
+				FCE162C91D66A8840074075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE1628C1D66A8840074075E /* Project object */;
+}
